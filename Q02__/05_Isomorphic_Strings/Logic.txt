@@ -1,0 +1,8 @@
+My Idea:
+1. If string lengths are unequal, return false.
+2. The relationship between characters should be 1-1. If find any n-1 or 1-n, return false. Otherwise return true
+
+Other Solution:
+return len(set(zip(s, t))) == len(set(s)) and len(set(zip(t, s))) == len(set(t))
+The type of s should be equal to the type of zip(s, t). If len(set(zip(s, t))) > len(set(s)), that means there are 1-n relationship
+Similar to check t for n-1 relationship
