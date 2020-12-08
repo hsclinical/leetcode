@@ -1,0 +1,5 @@
+My Idea:
+Stack to pair "[" and "]"
+
+Other Solution:
+Stack
