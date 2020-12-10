@@ -1,0 +1,26 @@
+My Idea:
+1. Go through all intervals to find
+  a. which interval fully cover the input interval
+     Count number
+  b. which interval is fully covered by the input interval
+     Record start and end
+  c. which interval overlap the input interval with smaller start
+     Record end
+  d. which interval overlap the input interval with larger start
+     Record start
+
+  If # in a >= threshold, return False, and exit
+  Loop through start list for all intervals in (b, c, and d)
+  Loop through end list for all intervals in (b, c, and d)
+
+Advantage:
+1. Good for any layer. In this case, it's 3. But this method is good for 4, 5 or more
+
+Shortage:
+1. Fail to use sorted list or dictionary
+
+Note:
+1. It's easy to update the current version to complete Q732 [Hard]
+
+Other Solution:
+Binary tree may be a better solution in BigO
