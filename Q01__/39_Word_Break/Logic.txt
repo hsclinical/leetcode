@@ -1,0 +1,16 @@
+My Idea:
+I tried two methods:
+1. Use recursive only without any pre-process of input. Theoretically, it works. However, when input
+   a very long "a" string and a bunch of small "a" strings, it leads to "Timeout"
+
+2. Therefore, I perform some pre-process for input. At first filter wordDict. If there is any word
+   containing letter that not exist in input s, those words may filter out. For remaining words, combined
+   set letter should be exactly same to set letter from s.
+   If there is any letter that present within one word only, this word must present in s as well. Using
+   those words to split string s to get a list. Use for loop and recursive method in #1 to check all elements
+   in list. If they all pass, then return True. Otherwise return False
+
+Runtime: 24 ms, faster than 99.57% of Python3 online submissions for Word Break.
+Memory Usage: 14.6 MB, less than 10.33% of Python3 online submissions for Word Break.
+
+Other Solution:
