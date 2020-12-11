@@ -1,0 +1,6 @@
+My Idea:
+1. Use the recursive method to find the path between root and the target node
+2. Now, the original question is converted to find the longest common substring.
+   Both strings have the same start (root node), find the end and return
+
+Other Solution:
