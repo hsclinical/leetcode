@@ -1,0 +1,6 @@
+My Idea:
+The question itself is pretty easy. The conplexity is O(n)
+To make the complexity O(logN), search the median element first, then use recursive method to keep searching.
+Need record start index and index in the sub list
+
+Other Solution:
