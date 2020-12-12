@@ -1,0 +1,9 @@
+My Idea:
+Load input List into Dictionary with start as key, end as value. If there are more than one input with
+the same start, record the one with the largest end.
+Sort Dictionary key from the smallest to the largest, then perform merging. There are three cases (since sorted by start)
+1. No overlap
+2. Partial overlap
+3. The second is full covered by the first
+
+Other Solution:
