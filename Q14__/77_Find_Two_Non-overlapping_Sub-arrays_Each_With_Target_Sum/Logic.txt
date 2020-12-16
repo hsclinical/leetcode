@@ -1,0 +1,42 @@
+My Idea:
+1. count how many elements equals to target
+2. if the number (ET) is greater than 2, then return 2
+3. otherwise, scan arr (ignore elements >= target) and get a list
+4. if (ET in #2) is 1, then find the shortest interval in list (#3)
+5. if (ET in #2) is 0, sort the list (#3) by interval size (smallest to longest)
+6. use nested for loop to check. break the internal loop if at least one candidate is ready and the output is larger
+7. the complexity is O(n**2). Should find a way to improve
+
+Other Solution:
+Better Solution that uses "best = min(best, best_at_i[left-1] + right - left + 1)" to avoid interval overlap.
+Note: it's best_at_i[left-1], instead of best_at_i[right]
+
+class Solution:
+    def minSumOfLengths(self, arr: List[int], target: int) -> int:
+        INF = len(arr) + 1
+        best_at_i = [INF]*len(arr) # the ith index represents the smallest length subarray we've found ending <= i that sums to target
+        best = INF # output 
+        curr_sum = 0 # current sum between left and right
+        
+        left = 0
+        for right in range(len(arr)):
+            # update the running sum
+            curr_sum += arr[right]
+            
+            # arr is strictly positive, so shrink window until we're not above target
+            while curr_sum > target and left <= right:
+                curr_sum -= arr[left]
+                left += 1
+            
+            if curr_sum == target:
+                # we have a new shortest candidate to consider
+                best = min(best, best_at_i[left-1] + right - left + 1)
+                best_at_i[right] = min(best_at_i[right-1], right - left + 1)
+            else:
+                # best we've seen is the previous best (overlaps to end if right == 0)
+                best_at_i[right] = best_at_i[right-1]
+            print(curr_sum, left, right, best, best_at_i)
+        
+        if best == INF:
+            return -1
+        return best
