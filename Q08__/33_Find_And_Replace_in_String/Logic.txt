@@ -1,0 +1,7 @@
+My Idea:
+1. zip 3 lists (position, from, to) to create a new list
+2. sort the list using position (reverse order), use lambda to indicate sort based on what
+3. replace from the end to the start because the change at the end will not affect the index in the beginning.
+   If replace from the beginning, it will be miserable
+
+Other Solution:
