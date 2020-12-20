@@ -1,0 +1,7 @@
+My Idea:
+Only beat 5.05% in Runtime. Not sure how to improve right now.
+
+Runtime: 5004 ms, faster than 5.05% of Python3 online submissions for Snapshot Array.
+Memory Usage: 35.8 MB, less than 90.79% of Python3 online submissions for Snapshot Array.
+
+Other Solution:
