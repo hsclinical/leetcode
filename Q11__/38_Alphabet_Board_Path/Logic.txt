@@ -1,0 +1,4 @@
+My Idea:
+Main for corner case 'z'. How to enter 'z' and how to exit 'z'
+
+Other Solution:
