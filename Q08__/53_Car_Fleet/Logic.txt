@@ -1,0 +1,6 @@
+My Idea:
+# sort position from the largest to the smallest (large one close to target)
+# if there are multiple cars starting at the same position, sort them based on speed
+# fastest first
+
+Other Solution:

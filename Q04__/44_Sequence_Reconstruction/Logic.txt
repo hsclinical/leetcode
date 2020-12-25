@@ -1,0 +1,6 @@
+My Idea:
+1. The relative order in seqs matches the order in org (it also implies all elements in seqs could be found in org)
+2. All elements in org could be found in seqs
+3. All link between adjacent nums in org could be found in seqs
+
+Other Solution:
