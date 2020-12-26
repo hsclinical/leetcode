@@ -1,0 +1,5 @@
+My Idea:
+1. keep a sorted start list.
+2. take O(logN) to find the suitable index
+
+Other Solution:

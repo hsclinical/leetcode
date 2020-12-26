@@ -1,0 +1,13 @@
+My Idea:
+In my first version, I though k consecutive numbers should be ordered, such as [1, 2, 3], [3, 2, 1].
+The order could be mono-increase, mono-decrease, or a mix of mono-increase and mono-decrease. But,
+within each list, it has to be mono-increase or mono-decrease. The step of consecutive number is 1.
+However, this idea is not correct. For example, testcase 32/45
+> [12,12,2,11,22,20,11,13,3,21,1,13]
+> 3
+
+[12, 11, 13], [12, 11, 13], [2, 3, 1], [22, 20, 21], 
+
+If order is not necessary, try to use dictionary with number -> freq, then sort key and check one by one
+
+Other Solution:
