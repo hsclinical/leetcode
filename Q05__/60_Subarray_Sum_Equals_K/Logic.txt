@@ -1,0 +1,4 @@
+My Idea:
+Dictionary. Count cumulative sum frequency
+
+Other Solution:

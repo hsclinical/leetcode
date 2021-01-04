@@ -1,0 +1,6 @@
+My Idea:
+Try both methods:
+1. find mono-increase, mono-decrease, then all combination. O(n**2)
+2. two pointers, move the low-height one to center direction
+
+Other Solution:
