@@ -1,4 +1,4 @@
 My Idea:
-Count the number of non-overlap intervals
+DP to find cell to be removed
 
 Other Solution:
