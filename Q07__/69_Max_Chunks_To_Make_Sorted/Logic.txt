@@ -1,0 +1,4 @@
+My Idea:
+Count the number of non-overlap intervals
+
+Other Solution:

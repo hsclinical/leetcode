@@ -1,0 +1,7 @@
+My Idea:
+Dynamic programming is a better approach with complexity O(mn). The output is the sum of all cell.
+
+Additional thinking. This case, it's square, How about rectangle? The same solution works?
+
+
+Other Solution:
