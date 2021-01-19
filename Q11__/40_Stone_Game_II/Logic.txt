@@ -1,0 +1,5 @@
+My Idea:
+1. use @lru_cache(maxsize=None), which improves the speed a lot
+2. minmax, recursive
+
+Other Solution:

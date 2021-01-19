@@ -1,0 +1,5 @@
+My Idea:
+Recursive with @lru_cache(maxsize=None)
+List or Set cannot be a parameter of function with @lru_cache(maxsize=None). Need convert them to tuple at first
+
+Other Solution:
