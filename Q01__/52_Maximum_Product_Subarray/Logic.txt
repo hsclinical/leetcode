@@ -1,0 +1,4 @@
+My Idea:
+record max & min in case the next number is negative
+
+Other Solution:

@@ -1,0 +1,5 @@
+My Idea:
+if len(sentence) is small, enumerate word in sentence that a line starts with. If form a loop, use divide to calculate directly
+my current solution is not optimal enough
+
+Other Solution:

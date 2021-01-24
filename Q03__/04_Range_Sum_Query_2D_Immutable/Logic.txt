@@ -1,0 +1,5 @@
+My Idea:
+
+Other Solution:
+Pre-computate all sum from left top (0, 0) to any position (?, ?). For any (i, j, x, y), use S(x, y) - S(x, j-1) - S(i-1, y) + S(i-1, j-1)
+The complexity is O(1) for retrieve. O(mn) for init

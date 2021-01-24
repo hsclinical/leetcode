@@ -1,0 +1,8 @@
+My Idea:
+The difficulty is how to get the list that contains all combinations. The current version takes
+partPath as a parameter to trace the path. If we can remove this parameter, therefore use lru_cache
+may speed up the process
+
+check prefix, if it's a palindrome. Cut and check the remaining using the recursive method
+
+Other Solution:

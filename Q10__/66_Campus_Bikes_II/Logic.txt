@@ -1,0 +1,6 @@
+My Idea:
+Dijkstra algorithm from 0000 to 1111 where the string length is the number of worker (N)
+Use '<<' and '|' to search
+Passed but slow (5736 ms, faster than 5.13% of Python3 online submissions)
+
+Other Solution:
