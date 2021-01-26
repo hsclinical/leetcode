@@ -1,0 +1,11 @@
+My Idea:
+v1: Check All Substrings
+Runtime: 1684 ms, faster than 5.03% of Python3 online submissions for Palindromic Substrings.
+Memory Usage: 286.7 MB, less than 5.05% of Python3 online submissions for Palindromic Substrings.
+
+v2: From center to flanking to aviod duplicate check
+Runtime: 132 ms, faster than 71.86% of Python3 online submissions for Palindromic Substrings.
+Memory Usage: 14.2 MB, less than 74.03% of Python3 online submissions for Palindromic Substrings.
+
+
+Other Solution:

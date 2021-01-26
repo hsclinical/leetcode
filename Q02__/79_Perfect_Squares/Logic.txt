@@ -1,0 +1,7 @@
+My Idea:
+This question is similar to Q518. For that one, I used recursive method and lru_cache. For this one,
+I am going to use DP
+
+Use List instead of Matrix to avoid copy and save space. Skip leading perfect-square elements to be faster
+
+Other Solution:

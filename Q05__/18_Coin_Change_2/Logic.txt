@@ -1,0 +1,8 @@
+My Idea:
+use recursive and lru_cache
+
+Other Solution:
+It's better to use DP
+N*M matrix where M (amount) is X, N (len(coins)) is Y
+dp[x] = dp[x] + dp[x - coin]
+Simialr to Q279
