@@ -1,0 +1,5 @@
+My Idea:
+
+#2: if file content is very large, we may use MD5 to convert into a short string
+
+Other Solution:
