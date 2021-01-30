@@ -1,0 +1,4 @@
+My Idea:
+I use stack method. The better way is to count core and depth
+
+Other Solution:
