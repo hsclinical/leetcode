@@ -1,0 +1,10 @@
+My Idea:
+combine all steps in instruction into start position/direction and end position/direction
+case 1: start position and end position are both (0, 0).
+  In this case, no matter how the end direction it it. It will return True
+case 2: start position and end position are different.
+  In this case, if the end direction is still 'N', it will go to infinity
+  if it's 'S', it will go back to the original start after one more instruction input
+  if it's 'E' or 'W', it will go back the original start after three more instruction inputs
+
+Other Solution:

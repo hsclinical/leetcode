@@ -1,0 +1,6 @@
+My Idea:
+It's an open question with many solutions, such as auto-increase number, random number, etc
+I chose MD5. One longUrl can map to an unique shortUrl. Store the mapping information in a dictionary
+for retrieve
+
+Other Solution:

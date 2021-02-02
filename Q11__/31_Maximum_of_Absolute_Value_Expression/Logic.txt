@@ -1,0 +1,9 @@
+My Idea:
+Traditional method: O(n**2)
+Using Chebyshev Distance: O(n)
+For details, please check https://leetcode.com/problems/maximum-of-absolute-value-expression/discuss/347046/Python-ManhattanChebyshev-Distance
+
+Note: zip(*A): A is a matrix, zip(*A) to convert each column into a list
+
+Other Solution:
+https://leetcode.com/problems/maximum-of-absolute-value-expression/discuss/347046/Python-ManhattanChebyshev-Distance

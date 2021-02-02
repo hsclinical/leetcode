@@ -1,0 +1,7 @@
+My Idea:
+It's a complete binary tree. As long as we know where is the last node, we may know the number of
+nodes in the tree
+The complexity is around O(logN)
+
+
+Other Solution:
