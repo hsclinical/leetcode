@@ -1,0 +1,7 @@
+My Idea:
+Runtime: 24 ms, faster than 97.04% of Python3 online submissions for Sum Root to Leaf Numbers.
+Memory Usage: 14.5 MB, less than 11.78% of Python3 online submissions for Sum Root to Leaf Numbers.
+
+Use str instead of int to parse in case 00 is converted to 0
+
+Other Solution:

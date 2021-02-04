@@ -1,0 +1,9 @@
+My Idea:
+Runtime: 44 ms, faster than 99.56% of Python3 online submissions for Unique Binary Search Trees II.
+Memory Usage: 15.7 MB, less than 30.86% of Python3 online submissions for Unique Binary Search Trees II.
+
+Please check my post in discussion
+https://leetcode.com/problems/unique-binary-search-trees-ii/discuss/1047605/44ms-python-recursive-solution
+
+
+Other Solution:

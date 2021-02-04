@@ -6,24 +6,33 @@
 #         self.right = right
 class Solution:
     def findDuplicateSubtrees(self, root: TreeNode) -> List[TreeNode]:
-        self.treeFreq = {}
-        self.travelBinaryTree(root)
-        #print(self.treeFreq)
-        outList = [ list(i) for i in self.treeFreq.keys() if self.treeFreq[i] > 1 ]
+        self.currentId = 0
+        self.uniqueIdToNode = {} # root.uniqueId -> [node]
+        self.tupleToUniqueId = {} # (root.val, left.uniqueId, right.uniqueId) -> root.uniqueId
 
-    def travelBinaryTree(self, root):
-        if root.left != None and root.right != None:
-            treeList = [ root.val ] + self.travelBinaryTree(root.left) + self.travelBinaryTree(root.right)
-        elif root.left != None:
-            treeList = [ root.val ] + self.travelBinaryTree(root.left)
-        elif root.right != None:
-            treeList = [ root.val ] + self.travelBinaryTree(root.right)
+        self.dfsTree(root)
+        return [ self.uniqueIdToNode[i][0] for i in self.uniqueIdToNode if len(self.uniqueIdToNode[i]) > 1]
+
+    def dfsTree(self, root):
+        if root.left == None and root.right == None:
+            leftUniqueId = None
+            rightUniqueId = None
+        elif root.right == None:
+            leftUniqueId = self.dfsTree(root.left)
+            rightUniqueId = None
+        elif root.left == None:
+            leftUniqueId = None
+            rightUniqueId = self.dfsTree(root.right)
         else:
-            treeList = [ root.val ]
+            leftUniqueId = self.dfsTree(root.left)
+            rightUniqueId = self.dfsTree(root.right)
 
-        treeTuple = tuple(treeList)
-        if treeTuple not in self.treeFreq:
-            self.treeFreq[ treeTuple ] = 0
-        self.treeFreq[ treeTuple ] += 1
-
-        return treeList
+        key = (root.val, leftUniqueId, rightUniqueId)
+        if key in self.tupleToUniqueId:
+            uniqueId = self.tupleToUniqueId[ key ]
+            self.uniqueIdToNode[ uniqueId ].append( root )
+        else:
+            self.tupleToUniqueId[ key ] = self.currentId
+            self.uniqueIdToNode[ self.currentId ] = [ root ]
+            self.currentId += 1
+        return self.tupleToUniqueId[ key ]
