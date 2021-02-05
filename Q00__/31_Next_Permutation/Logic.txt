@@ -1,0 +1,4 @@
+My Idea:
+Here, in the last sort step, I use a O(n**2) method in order to use the minimal memory.
+
+Other Solution:

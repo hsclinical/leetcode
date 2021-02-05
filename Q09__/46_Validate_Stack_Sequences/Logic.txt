@@ -1,0 +1,13 @@
+My Idea:
+Runtime: 1832 ms, faster than 5.22% of Python3 online submissions for Validate Stack Sequences.
+Memory Usage: 20.6 MB, less than 5.51% of Python3 online submissions for Validate Stack Sequences.
+
+My method is not so good in performance (speed and memory). But it's able to handle cases that there
+are duplicate values in pushed or poped list
+
+For example: sample Input:
+[1,2,3,2,5]
+[5,2,3,2,1]
+
+
+Other Solution:

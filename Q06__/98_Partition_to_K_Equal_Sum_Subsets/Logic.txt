@@ -1,0 +1,4 @@
+My Idea:
+Use lru_cache with sorted tuple as parameter
+
+Other Solution:
