@@ -1,0 +1,5 @@
+My Idea:
+assign unique id, merge unique id if they are adjacent.
+Use a dictionary to store if unique id ar border or not
+
+Other Solution:
