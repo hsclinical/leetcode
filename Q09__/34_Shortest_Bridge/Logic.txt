@@ -1,0 +1,5 @@
+My Idea:
+1. update one island value from 1 to -1, in this case we know there is the end
+2. start from the other island, keep searching step by step
+
+Other Solution:

@@ -1,5 +1,5 @@
 My Idea:
-assign unique id, merge unique id if they are adjacent.
-Use a dictionary to store if unique id ar border or not
+the connection could be vertical (same email shows up in different line) OR horizontal (emails in one line)
+Push both cases to the smallest index
 
 Other Solution:
