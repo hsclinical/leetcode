@@ -1,0 +1,6 @@
+My Idea:
+1. splite node into two categories: w/i edge and w/o edge
+2. For w/o edge, each node means a group
+3. For w/i edge, use visited = set() to check which has been visited, which is not
+
+Other Solution:
