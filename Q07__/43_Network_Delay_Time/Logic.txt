@@ -1,0 +1,10 @@
+My Idea:
+1. Initiate two dictionaries: one for confirmed nodes, the other for visited nodes
+2. Start from the node given, add it to confirmed with score 0, add all neighbours of this node to visited and record distance
+3. Find all nodes in visited with the lowest value. add the neighbours of those nodes into confirmed
+4. Meanwhile, move those nodes from visited to confirmed.
+5. Repeat process #3 and #4 until confirmed dictionary is empty
+6. For loop range(n) to check if there is any node unconfirmed.
+7. Output results
+
+Other Solution:
