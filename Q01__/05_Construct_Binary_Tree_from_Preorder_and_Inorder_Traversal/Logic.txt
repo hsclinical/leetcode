@@ -1,0 +1,5 @@
+My Idea:
+Two numbers should be adjacent in both preorder and inorder. If they are reverse order, left node.
+Elif they are same order, right node
+
+Other Solution:
