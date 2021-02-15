@@ -1,0 +1,9 @@
+My Idea:
+Similar to the following question:
+Given any two points, if either x or y are equal, then put those two points into one group. Combine
+all groups containing any common point
+
+return {# of points} - {# of groups}
+
+
+Other Solution:
