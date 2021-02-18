@@ -1,0 +1,9 @@
+My Idea:
+Sort by start. If equal start, sort by end. (increas)
+if overlap, store overlap start and end
+if non-overlap, append previous (start, end) to list
+at the end, append the final/current (start, end) to list
+count how many items in the list
+
+
+Other Solution:

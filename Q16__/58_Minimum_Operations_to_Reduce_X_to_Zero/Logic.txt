@@ -1,0 +1,6 @@
+My Idea:
+At first, find a range with sum >= x
+Then, remove at one end if sum >= x, add at the other end if sum < x
+try to find the minimal range length
+
+Other Solution:
