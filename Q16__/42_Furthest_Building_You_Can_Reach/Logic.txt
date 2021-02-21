@@ -1,0 +1,5 @@
+My Idea:
+Variations of Dijkstra's Algorithm
+
+Other Solution:
+https://leetcode.com/problems/path-with-minimum-effort/solution/
