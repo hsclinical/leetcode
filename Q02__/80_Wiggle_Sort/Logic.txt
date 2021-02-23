@@ -1,0 +1,4 @@
+My Idea:
+
+Other Solution:
+The better solution is O(n). As we iterate through the array, we compare the current element to its next element and if the order is incorrect, we swap them.
