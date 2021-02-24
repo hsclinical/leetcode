@@ -1,0 +1,9 @@
+My Idea:
+Similar to 1366
+Use customerized comparison function to sort as below:
+import functools
+rankList.sort( key=functools.cmp_to_key(compare) )
+def compare(item1, item2):
+
+
+Other Solution:
