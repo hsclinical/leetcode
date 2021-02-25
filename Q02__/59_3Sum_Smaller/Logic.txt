@@ -1,0 +1,4 @@
+My Idea:
+The basic dynamic programing
+
+Other Solution:
