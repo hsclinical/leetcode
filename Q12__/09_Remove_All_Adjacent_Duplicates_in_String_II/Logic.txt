@@ -1,0 +1,7 @@
+My Idea:
+For case #16 and #17
+v1 (single stack with for): 30 sec
+v2 (single stack with set & len): 10 sec
+v3 (two stacks: type and count): 1 sec
+
+Other Solution:
