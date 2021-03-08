@@ -1,0 +1,6 @@
+My Idea:
+1. visit all accessible position
+2. use bfs to find the shortest path
+
+
+Other Solution:
