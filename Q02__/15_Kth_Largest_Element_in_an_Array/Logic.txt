@@ -1,0 +1,13 @@
+My Idea:
+https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
+heapify(iterable)
+heappush(heap, ele)
+heappop(heap)
+
+heappushpop(heap, ele)
+heapreplace(heap, ele)
+
+nlargest(k, iterable, key = fun)
+nsmallest(k, iterable, key = fun)
+
+Other Solution:
