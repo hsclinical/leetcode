@@ -1,0 +1,4 @@
+My Idea:
+O(nlogn)
+
+Other Solution:
